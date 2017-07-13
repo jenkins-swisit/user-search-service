@@ -28,8 +28,7 @@ import java.util.Locale;
 @EnableNeo4jRepositories(basePackages = "com.stackroute.swisit.usersearchservice.repository")
 public class UserSearchServiceApplication extends Neo4jRepositoriesAutoConfiguration {
     public static void main(String[] args) {
-
-        SpringApplication.run(UserSearchServiceApplication.class, args);
+    		SpringApplication.run(UserSearchServiceApplication.class, args);
     }
 
     /*-----------------Resolving Locale-----------------*/
