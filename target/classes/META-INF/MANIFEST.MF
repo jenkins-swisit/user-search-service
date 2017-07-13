@@ -4,8 +4,8 @@ Implementation-Version: 0.0.1-SNAPSHOT
 Built-By: user
 Implementation-Vendor-Id: com.stackroute.swisit
 Build-Jdk: 1.8.0_131
-Implementation-URL: http://projects.spring.io/spring-boot/swisit/users
- earchservice/
+Implementation-URL: http://projects.spring.io/spring-boot/usersearchse
+ rvice/
 Created-By: Maven Integration for Eclipse
 Implementation-Vendor: Pivotal Software, Inc.
 

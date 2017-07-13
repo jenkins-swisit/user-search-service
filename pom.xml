@@ -10,12 +10,18 @@
     <description>User Search Service for SWISit</description>
 
 
-	<parent>
+	<!-- <parent>
 	<groupId>com.stackroute</groupId>
 	<artifactId>swisit</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	</parent>
+	</parent> -->
 
+<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>1.5.4.RELEASE</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
     <!--#############################Spring Starter web Dependency############################ -->
     <dependencies>
     <dependency>
