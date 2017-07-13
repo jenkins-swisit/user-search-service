@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: usersearchservice
+  cloud:
+    config:
+      uri: http://localhost:8888
