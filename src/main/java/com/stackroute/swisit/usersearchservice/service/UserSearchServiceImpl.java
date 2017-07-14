@@ -27,9 +27,6 @@ public class UserSearchServiceImpl implements UserSearchService {
     UserInput userInput = new UserInput();
 
     ArrayList<UserSearchResult> userSearchResults = new ArrayList<UserSearchResult>();
-
-
-
     /*------------fetchConcept method for getting List of ConceptResult-----------*/
     @Override
     public List<String> fetchConcept() {
@@ -50,7 +47,9 @@ public class UserSearchServiceImpl implements UserSearchService {
         return termResults;
     }
 
+    
     /*------------fetchNeoData method for getting List of UserSearchResult-----------*/
+    
     @Override
     public List<UserSearchResult> fetchNeoData(UserInput userInputRef) {
 
@@ -99,7 +98,8 @@ public class UserSearchServiceImpl implements UserSearchService {
         return userSearchResults;
         }
 
-    }
+    
+}
 
 
 
